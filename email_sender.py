@@ -81,7 +81,7 @@ def get_refresh_token(token_information):
 
 def get_token_response():
 
-    APP_ID = "550a53be-f9fd-4557-ae03-b971c39e94a0"
+    APP_ID = "<enter-your-app-id>"
     SCOPES = ["User.read", "Mail.ReadWrite", "Mail.Send", "Mail.Send.Shared"]
 
     # create cache and public client app
